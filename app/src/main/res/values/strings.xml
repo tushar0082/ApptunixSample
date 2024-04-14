@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ApptunixSample</string>
+    <string name="calcuated_price">Calcuated Price</string>
+    <string name="choose_timing">Choose Timing</string>
+    <string name="quantity_kg">Quantity-KG</string>
+    <string name="save">Save</string>
+    <string name="choose_fat">Choose Fat</string>
+    <string name="place_order">Place Order</string>
+    <string name="enter_milk_quantity">Enter Milk Quantity</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="create_order">Create Order</string>
+    <string name="view_orders">View Orders</string>
+</resources>
