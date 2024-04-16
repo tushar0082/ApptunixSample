@@ -17,5 +17,5 @@ interface OrdersDao {
     @Update
     suspend fun update(orders: Orders)
     @Query("select * from Orders")
-    fun getOrders():List<Orders>
+    suspend fun getOrders():List<Orders>
 }

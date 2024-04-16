@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.apptunixsample.ui.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_createOrderFragment"
+            app:destination="@id/createOrderFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_viewOrdersFragment"
+            app:destination="@id/viewOrdersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createOrderFragment"
+        android:name="com.example.apptunixsample.ui.CreateOrderFragment"
+        android:label="Create Order" />
+    <fragment
+        android:id="@+id/viewOrdersFragment"
+        android:name="com.example.apptunixsample.ui.ViewOrdersFragment"
+        android:label="View Orders"
+        tools:layout="@layout/fragment_view_orders" />
+</navigation>
